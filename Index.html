@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Barsha 🌸</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="petals"></div>
+
+<!-- PAGE 1 -->
+
+<section class="page active" id="page1">
+
+    <div class="glass">
+
+        <h3 class="small-title">
+            For Barsha 🌸
+        </h3>
+
+        <h1>
+            On Her 19th Birthday
+        </h1>
+
+        <h2>
+            24 July
+        </h2>
+
+        <p>
+            A few memories,
+            a few feelings,
+            and something from the heart...
+        </p>
+
+        <button onclick="nextPage(2)">
+            Begin The Journey 🌸
+        </button>
+
+    </div>
+
+</section>
+
+<!-- PAGE 2 -->
+
+<section class="page" id="page2">
+
+    <div class="glass">
+
+        <h1>Barsha ✨</h1>
+
+        <p class="typewriter">
+            Her name carries the calmness of rain...
+            and somehow every beautiful thought
+            finds its way back to her.
+        </p>
+
+        <div class="btn-group">
+
+            <button onclick="nextPage(3)">
+                Tell Me More ❤️
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- PAGE 3 -->
+
+<section class="page" id="page3">
+
+    <div class="glass">
+
+        <h1>Some Thoughts 🌷</h1>
+
+        <div class="quote-box">
+
+            <p>
+                “Some people enter our lives quietly,
+                yet become impossible to forget.”
+            </p>
+
+            <p>
+                “If memories were flowers,
+                I would keep one forever.”
+            </p>
+
+            <p>
+                “Some names are spoken aloud.
+                Some stay inside the heart.”
+            </p>
+
+        </div>
+
+        <button onclick="nextPage(4)">
+            Continue ✨
+        </button>
+
+    </div>
+
+</section>
+
+<!-- PAGE 4 -->
+
+<section class="page" id="page4">
+
+    <div class="glass">
+
+        <div class="envelope" onclick="openLetter()">
+
+            💌
+
+        </div>
+
+        <h2>
+            Click The Letter
+        </h2>
+
+        <div id="letter">
+
+            <p>
+                Dear Barsha,
+            </p>
+
+            <p>
+                Today is not just another birthday.
+            </p>
+
+            <p>
+                It is the celebration of a soul
+                that deserves happiness,
+                peace,
+                success,
+                and every beautiful thing life can offer.
+            </p>
+
+            <p>
+                There is one last surprise waiting...
+            </p>
+
+            <button onclick="nextPage(5)">
+                Open Final Surprise 🎁
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- PAGE 5 -->
+
+<section class="page final-page" id="page5">
+
+    <div class="glass final-card">
+
+        <h1 class="birthday">
+            🎂 Happy 19th Birthday Barsha 🎂
+        </h1>
+
+        <p>
+            May every dream you carry find its wings.
+        </p>
+
+        <p>
+            May every road lead to happiness.
+        </p>
+
+        <p>
+            May your smile always stay as beautiful
+            as it is today.
+        </p>
+
+        <div class="proposal">
+
+            <p>
+                Some people arrive quietly...
+            </p>
+
+            <p>
+                Yet somehow become unforgettable.
+            </p>
+
+            <p>
+                And perhaps some feelings
+                are never truly measured by words.
+            </p>
+
+            <p class="big-line">
+                Will you let me be
+                a part of your story? ❤️
+            </p>
+
+        </div>
+
+        <div class="choice-buttons">
+
+            <button class="yes-btn"
+                onclick="showResult('yes')">
+                YES ❤️
+            </button>
+
+            <button class="time-btn"
+                onclick="showResult('time')">
+                LET TIME DECIDE 🌸
+            </button>
+
+            <button class="no-btn"
+                onclick="showResult('no')">
+                NO 💔
+            </button>
+
+        </div>
+
+        <div id="result"></div>
+
+        <div class="signature">
+
+            —
+            <br>
+            From Someone Who Keeps Finding You
+            In Every Beautiful Moment ✨
+
+        </div>
+
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
